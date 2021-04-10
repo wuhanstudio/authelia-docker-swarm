@@ -56,6 +56,5 @@ storage:
     path: /config/db.sqlite3
 
 notifier:
-  notifier:
   filesystem:
     filename: /config/notification.txt
