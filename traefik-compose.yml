@@ -66,7 +66,7 @@ services:
       - "--entryPoints.websecure.address=:443"
       - "--certificatesresolvers.letsencrypt.acme.httpchallenge=true"
       - "--certificatesresolvers.letsencrypt.acme.httpchallenge.entrypoint=web"
-      - "--certificatesresolvers.letsencrypt.acme.email=wuhanstudio@qq.com"
+      - "--certificatesresolvers.letsencrypt.acme.email=your@email.com"
       - "--certificatesresolvers.letsencrypt.acme.storage=/letsencrypt/acme.json"
     ports:
       # Listen on port 80, default for HTTP, necessary to redirect to HTTPS
