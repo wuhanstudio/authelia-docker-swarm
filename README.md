@@ -1,4 +1,4 @@
-## docker-swarm
+## Example of deploying authelia lite on docker swarm
 
 ```
 $ docker swarm init && docker network create --driver=overlay traefik-public
